@@ -166,15 +166,16 @@ label{
     font-family:"Raleway", sans-serif;
    color:#BEE3DB;
     font-size: 1.5em;
+    align-self: center;
+    padding-bottom: 20px;
 }
 textarea{
     font-family:"Raleway", sans-serif;
     align-self: center;
     font-size: 1em;
+    width:500px;
 }
-#Submit{
-    align-self: center;
-}
+
 #subject{
     border-radius: 10px;
     width: 500px;
@@ -183,6 +184,9 @@ input[type=submit]:hover{
     background-color:#BEE3DB;
     color: #084F54;
 }
+#country, #lastName, #fname{
+    width: 500px;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -190,4 +194,8 @@ body{
 .container3{
     margin: 0 auto;
     padding-top: 30px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
 }
