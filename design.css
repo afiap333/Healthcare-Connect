@@ -39,6 +39,11 @@ h2{
     font-family: 'Raleway',sans-serif;
     color: #BEE3DB;
 }
+h4{
+    font-family: 'Raleway',sans-serif;
+    color: #BEE3DB;
+    font-size: 1em;
+}
 h3{
     font-family: 'Abril Fatface', serif;
     color: #BEE3DB;
@@ -156,8 +161,11 @@ background-color: #084F54;
     border-radius: 10px;
     cursor: pointer;
     font-family: "Raleway";
+    padding: 10px;
     justify-self: center;
     align-self: center;
+    align-self: center;
+    justify-content: center;
 }
 #subtitle{
     justify-self: center !important;
@@ -183,7 +191,10 @@ textarea{
 input[type=submit]:hover{
     background-color:#BEE3DB;
     color: #084F54;
+    align-items: center;
+    justify-content: center;
 }
+
 #country, #lastName, #fname{
     width: 500px;
 }
@@ -195,7 +206,9 @@ body{
     margin: 0 auto;
     padding-top: 30px;
 }
-.contact{
+.container2{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
